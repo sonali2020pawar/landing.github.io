@@ -1,0 +1,496 @@
+.navbar
+{
+    font-size: 100%;
+    background-color: rgb(247, 233, 233);
+    color:rgb(15, 137, 236);
+    width: 100%;
+    height: 10%;
+    
+
+}
+.navbar-nav li > a{
+    color:white;
+  }
+  .navbar-nav li > a:hover{
+    color:black;
+    
+  }
+  
+  .navbar-nav li > a:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color:black;
+      transition: width .3s;
+  }
+  .navbar-nav li > a:hover::after {
+      width: 100%;
+    }
+    #akshu{
+        margin-left: 50%;
+
+    }
+
+#building
+{
+background-image: url(https://images.adsttc.com/media/images/5da5/56f8/3312/fd3f/6a00/0052/newsletter/1-O_Mbuildings_PhotoByBruceDamonte.jpg?1571116781);
+width: 100%;
+height: 120vh;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+text-align: center;
+padding: 120px;
+color:white;
+}
+
+
+
+#h1{
+    text-align: center;
+}
+
+#button1
+ {
+    width: 15%;
+    height: 6vh;
+    border: solid 2px; 
+    border-radius: 45%;
+    background-color: brown;
+
+    
+    /*
+ text-decoration: none;
+ background-color: coral; 
+ border-bottom: #000;
+ wh */
+
+    
+}
+#button1:hover{
+    background-color: palevioletred;
+}
+#paregraph{
+    text-align: center;
+}
+
+
+.tag {
+	display: inline-block;
+  
+  width: auto;
+	height: 6vh;
+	
+	background-color: #979797;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+	border-left: 1px solid #979797;
+
+	/* This makes room for the triangle */
+	margin-left: 50%;
+	
+	position: relative;
+	
+	color: white;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 38px;
+
+	padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.tag:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: -19px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 19px solid transparent;
+	border-right: 19px solid #979797;
+}
+
+/* Makes the circle */
+.tag:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	left: -9px;
+	top: 17px;
+}
+.background
+{
+    background-image: url('https://images.pexels.com/photos/1869322/pexels-photo-1869322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    width: 100%;
+   height: 100vh;
+    background-size: 120% 120%;
+    /* padding-left: 100px; */
+    padding-top: 10%;
+    color:white;
+    
+
+}
+.opacity
+{
+    opacity: 0.7;
+}
+
+#zoomhover1{ 
+    width: 100%;
+     height: auto; 
+     -webkit-transition: .3s ease-in-out;
+    transition:.3s ease-in-out;
+      box-shadow: 10px 10px 10px  gray;
+      -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+  #zoomhover1:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+    
+  }
+  h1{
+    font-size: 30px;
+  }
+#img11{
+    width: 80%;
+    height: 30vh;
+     -webkit-transition:.3s ease-in-out;
+    transition:3s ease-in-out ;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    margin-left: 10%;
+  transition-duration: 2s; 
+  transition: 2s;
+
+
+
+}
+#img11:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+    box-shadow: 8px 8px 8px gray;
+   
+}
+
+
+#text{
+    font-size: 30px;
+    float:left;
+
+}
+
+#p{
+    font-size: 20px;
+    
+} 
+
+
+#form{
+    border-radius: 8px;
+float: right;
+    height: 65vh; 
+    width: 40%;
+    background-color:gray;
+   
+}
+input{
+    width: 10px;
+    height:40px;
+}
+#sam{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+#sam:hover{
+    box-shadow:20px 20px 20px #212529;
+
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    transition-duration: 10S;
+}
+#number{
+    text-align: center;
+}
+
+
+footer{
+padding-top: 100px;
+background-color:#04255c;
+height: 80%;
+width: 100%;
+font-size: 20px;
+color: aliceblue;
+}
+
+
+h3
+{
+    font-size: 30px;
+}
+
+a {
+  color: rgb(218, 209, 209);
+}
+footer {
+  padding: 2rem 0;
+  background-color: #212529;
+  
+}
+b
+{
+     margin-left:200px; 
+    margin-top: 30%; 
+    
+}
+.social-links
+{
+    margin-left:35%;
+    font-size: 40px;
+    margin-top:10%;
+}
+.i{
+width: 120px;
+font-size: 30px;
+height: 30px;
+color: #000;
+}
+.i:hover{
+    color:coral;
+}
+
+ 
+
+h1{
+    text-align: center;
+}
+/* p{
+    text-align: center;
+} */
+.blog_image{
+    background-image: url("https://www.ncerc.ac.in/content/img/nehru-h-abt.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 1%;
+    
+}
+h5{
+    border-bottom: 0.8px solid black;
+    width: 380px;
+    font-size: 20px;
+    height: 40px;  
+    transition: 1s;  
+}
+h5:hover{
+font-size: 25px;
+   
+}
+.categories{
+    float:right;
+}
+.sonali{
+    background-image: url("https://www.htsyndication.com/loadimage?cat=MEDIUM&filename=HTSI156129044655033.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%  ;
+    width: 100%;
+    height: 100vh;
+}
+
+.contact_us{
+    background-image: url("https://study-eu.s3.amazonaws.com/uploads/image/path/101/social_1200_university-of-cambridge.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+#formcontrol{
+    background-color:rgb(230, 197, 132);
+    width: 50%;
+    float: right;
+    height: 100vh;
+}
+
+label {
+    font-weight: 600;
+    color: #666;
+}
+body {
+  background: #f1f1f1;
+
+}
+.box8{
+  box-shadow: 0px 0px 5px 1px #999;
+}
+.mx-t3{
+  margin-top: -3rem;
+}
+
+
+
+  #image123{
+     width: 90%;
+     height: 40vh;
+     transition-duration: 1s;
+
+  }
+  #image123:hover{
+    opacity:0.8 ;
+    border-radius: 100%;
+    box-shadow: 20px 20px 20px rgb(32, 30, 30);
+    width: 100%;
+     
+  }
+
+  h6{
+    font-size: 400%;
+    color: white;
+    padding-top: 25%;
+    text-shadow: 10px 10px 10px forestgreen ;
+    text-align: center;
+  }
+  #pley{
+    float: right;
+  }
+
+  
+
+  .nikita{
+    background-image: url("https://www.mucollege.ac.in/images/page_gallery/31633.%20College%20Front%20View.png");
+    width: 100%; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    margin-bottom: 1%;
+  }
+.po
+{
+    border-bottom: 4px solid red;
+    width: 39%;
+    
+}
+.xyz{
+    font-size: 250%;
+    width: 300px;
+    color: #000;
+}
+
+.opq{
+    margin-left: 100px;
+}
+#tvs{
+    font-size: 12px;
+}
+@media only screen and (max-width:600px){
+    .background
+    {
+       
+        width: 100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .nikita
+    {
+       
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .blog_image
+    {
+       
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .contact_us
+    {
+       
+        height: 100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .sonali
+    {
+        height: 100%;
+    }
+} 
+
+
+@media only screen and (max-width:600px){
+    li
+    {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #formcontrol{
+        width: 100%;
+        height: 110vh;
+    }
+}
+
+@media only  screen and (max-width:600px){
+    .po{
+        height:80%;
+    }
+}
+
+/* 
+@media only screen and (max-width:600px){
+    #img11{
+      flex: 50%; 
+      max-width: 200vmax;
+       
+    }
+} */
+
+@media only screen and (max-width:600px){
+    #button1{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #building{
+        height: 140vh;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    #img11{
+        margin-top: 5%;
+        margin-bottom:5%;
+        
+    }
+    
+}
+
+
+  
